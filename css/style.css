@@ -6,6 +6,18 @@ main {
     background-color: khaki;
 }
 
-.Sobre {
+.sobre {
     background-color: lightblue;
+}
+
+.portafolio {
+    background-color: springgreen;
+}
+
+.portUno {
+    background-color: lightpink;
+}
+
+.portDos {
+    background-color: mediumaquamarine;
 }
