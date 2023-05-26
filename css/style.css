@@ -30,21 +30,39 @@ main {
 
 .portafolio {
     background-color: springgreen;
+    margin: 0 3rem;
 }
 
 .portUno {
-    background-color: lightpink;
+    background-color: #373737;
+    display: flex;
+    margin: 0 3rem;
 }
 
+.infoPortUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlacePortUno {
+    display: flex;
+    justify-content: center;
+}
 .portDos {
     background-color: mediumaquamarine;
 }
 
 .contacto {
     background-color: sandybrown;
+    margin: 0 3rem;
 }
 
 footer {
     background-color: deepskyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
 }
 /*FIN DE EDICCIONES GENERALES*/
