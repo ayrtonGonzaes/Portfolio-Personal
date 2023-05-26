@@ -61,7 +61,7 @@ main {
 }
 
 footer {
-    background-color: deepskyblue;
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,4 +126,21 @@ nav a {
 
 .enlacePortUno img {
     height: 4vh;
+}
+/*seccion 5*/
+.contacto h1 {
+    color: #0772c5;
+}
+
+.enlacesContacto a {
+    color: #fff;
+}
+/*footer*/
+.tituloFooter h1{
+    color: #fff;
+}
+
+.iconosFooter img {
+    background-color: #fff;
+    height: 6vh;
 }
