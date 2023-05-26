@@ -43,6 +43,7 @@ main {
 .infoPortUno {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -75,5 +76,54 @@ footer {
 
 nav a {
     color: #fff;
-    margin-left: 2rem;
+    margin-left: 1rem;
+}
+/*seccion principal*/
+.tituloMain h1 {
+    color: #fff;
+}
+
+.tituloMain p {
+    color: #fefefe;
+}
+
+.iconos img {
+    height: 5vh;
+    padding-right: 7px;
+}
+/*seccion 2*/
+.textoSobre h2 {
+    color: #0772c5;
+}
+
+.textoSobre p {
+    color: #fefefe;
+}
+/*seccion 3*/
+.portafolio h1 {
+    color: #0772c5;
+}
+
+.portafolio h2 {
+    color: #fefefe;
+}
+
+.infoPortUno h2 {
+    color: #fff;
+}
+
+.infoPortUno p {
+    color: #fefefe;
+}
+
+.infoPortUno button a {
+    color: #fff;
+}
+
+.enlacePortUno a {
+    color: #fefefe;
+}
+
+.enlacePortUno img {
+    height: 4vh;
 }
