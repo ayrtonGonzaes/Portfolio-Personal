@@ -1,9 +1,26 @@
+/*COMIENZO DE EDICCIONES GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
 header {
     background-color: cornflowerblue;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
 }
 
 main {
     background-color: khaki;
+    display: flex;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.presentacion {
+    display: flex;
 }
 
 .sobre {
@@ -29,3 +46,4 @@ main {
 footer {
     background-color: deepskyblue;
 }
+/*FIN DE EDICCIONES GENERALES*/
