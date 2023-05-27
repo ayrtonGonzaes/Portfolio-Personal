@@ -6,38 +6,34 @@
 }
 
 header {
-    background-color: cornflowerblue;
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    margin: 0 1.5rem;
+    background-color: #272727;
 }
 
 main {
-    background-color: khaki;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 3rem;
+    background-color: #272727;
 }
 
 .sobre {
-    background-color: lightblue;
+    background-color:  #373737;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 3rem;
 }
 
 .portafolio {
-    background-color: springgreen;
-    margin: 0 3rem;
+    background-color: #272727;
 }
 
 .portUno {
-    background-color: #373737;
+    background-color:  #373737;
     display: flex;
-    margin: 0 3rem;
+
 }
 
 .infoPortUno {
@@ -51,13 +47,9 @@ main {
     display: flex;
     justify-content: center;
 }
-.portDos {
-    background-color: mediumaquamarine;
-}
 
 .contacto {
-    background-color: sandybrown;
-    margin: 0 3rem;
+    background-color: #272727;
 }
 
 footer {
@@ -65,7 +57,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 3rem;
 }
 /*FIN DE EDICCIONES GENERALES*/
 
@@ -127,7 +118,7 @@ nav a {
 .enlacePortUno img {
     height: 4vh;
 }
-/*seccion 5*/
+/*seccion 4*/
 .contacto h1 {
     color: #0772c5;
 }
