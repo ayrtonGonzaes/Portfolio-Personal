@@ -3,35 +3,36 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    background-color: #272727;
 }
 
 header {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    background-color: #272727;
+    margin: 0 1.5rem;
 }
 
 main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #272727;
+    margin: 0 3rem;
 }
 
 .sobre {
-    background-color:  #373737;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 3rem;
 }
-
+/*
 .portafolio {
-    background-color: #272727;
+    
 }
+*/
 
 .portUno {
-    background-color:  #373737;
     display: flex;
 
 }
@@ -47,13 +48,13 @@ main {
     display: flex;
     justify-content: center;
 }
-
+/*
 .contacto {
-    background-color: #272727;
+   
 }
+*/
 
 footer {
-    background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,19 +64,24 @@ footer {
 /*Edicciones de texto*/
 .tituloHeader  h1 {
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav a {
     color: #fff;
     margin-left: 1rem;
+    font-family: Merge One ;
 }
 /*seccion principal*/
 .tituloMain h1 {
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5rem;
 }
 
 .tituloMain p {
     color: #fefefe;
+    font-family: Merge One ;
 }
 
 .iconos img {
@@ -85,34 +91,46 @@ nav a {
 /*seccion 2*/
 .textoSobre h2 {
     color: #0772c5;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .textoSobre p {
     color: #fefefe;
+    font-family: Merge One ;
 }
 /*seccion 3*/
 .portafolio h1 {
     color: #0772c5;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .portafolio h2 {
     color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .infoPortUno h2 {
     color: #fff;
+    font-family: Merge One ;
+    text-transform: uppercase;
 }
 
 .infoPortUno p {
     color: #fefefe;
+    font-family: Merge One ;
 }
 
 .infoPortUno button a {
     color: #fff;
+    font-family: Merge One ;
+    text-transform: uppercase;
 }
+
 
 .enlacePortUno a {
     color: #fefefe;
+    font-family: Merge One ;
 }
 
 .enlacePortUno img {
@@ -121,14 +139,21 @@ nav a {
 /*seccion 4*/
 .contacto h1 {
     color: #0772c5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.enlacesContacto img {
+    height: 4vh;
 }
 
 .enlacesContacto a {
     color: #fff;
+    font-family: Merge One ;
 }
 /*footer*/
-.tituloFooter h1{
+.tituloFooter h3{
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .iconosFooter img {
