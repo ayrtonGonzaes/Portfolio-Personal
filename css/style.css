@@ -10,44 +10,74 @@ header {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    margin: 0 1.5rem;
 }
 
 main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 3rem;
 }
 
 .sobre {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 3rem;
-}
-/*
-.portafolio {
-    
-}
-*/
-
-.portUno {
-    display: flex;
-
+    background-color: #373737;
 }
 
-.infoPortUno {
+.cartas-p {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.cartas-h {
+    background-color: #373737;
+    min-height: 80vh;
+    width: 85%;
+    border-radius: 2%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.enlacePortUno {
-    display: flex;
-    justify-content: center;
+.cartas2-h {
+    background-color: blue;
+    height: 50vh;
+    width: 50%;
 }
+
+.cartas-p img {
+    width: 60%;
+    height: 70vh;
+    border-radius: 4%;
+    margin-left: 2rem;
+}
+
+.infoCartas {
+    background-color: #373737;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.infoCartas h2 {
+    background-color: #373737;
+}
+
+.infoCartas p {
+    background-color: #373737;
+}
+
+.xd {
+    background-color: #373737;
+}
+.xd a {
+    background-color: #373737;
+}
+
 /*
 .contacto {
    
@@ -69,7 +99,7 @@ footer {
 
 nav a {
     color: #fff;
-    margin-left: 1rem;
+    margin-left: 2.5rem;
     font-family: Merge One ;
 }
 /*seccion principal*/
@@ -93,11 +123,13 @@ nav a {
     color: #0772c5;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    background-color: #373737;
 }
 
 .textoSobre p {
     color: #fefefe;
     font-family: Merge One ;
+    background-color: #373737;
 }
 /*seccion 3*/
 .portafolio h1 {
@@ -108,33 +140,6 @@ nav a {
 .portafolio h2 {
     color: #fefefe;
     font-family: 'Open Sans', sans-serif;
-}
-
-.infoPortUno h2 {
-    color: #fff;
-    font-family: Merge One ;
-    text-transform: uppercase;
-}
-
-.infoPortUno p {
-    color: #fefefe;
-    font-family: Merge One ;
-}
-
-.infoPortUno button a {
-    color: #fff;
-    font-family: Merge One ;
-    text-transform: uppercase;
-}
-
-
-.enlacePortUno a {
-    color: #fefefe;
-    font-family: Merge One ;
-}
-
-.enlacePortUno img {
-    height: 4vh;
 }
 /*seccion 4*/
 .contacto h1 {
