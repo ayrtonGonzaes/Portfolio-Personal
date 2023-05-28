@@ -36,46 +36,25 @@ main {
     background-color: #373737;
     min-height: 80vh;
     width: 85%;
+    margin: 0 auto;
     border-radius: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cartas2-h {
-    background-color: blue;
-    height: 50vh;
-    width: 50%;
-}
-
-.cartas-p img {
-    width: 60%;
-    height: 70vh;
-    border-radius: 4%;
-    margin-left: 2rem;
-}
 
 .infoCartas {
     background-color: #373737;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: start;
     margin: 0 2rem;
 }
 
-.infoCartas h2 {
+.enlacesCartas {
     background-color: #373737;
-}
-
-.infoCartas p {
-    background-color: #373737;
-}
-
-.xd {
-    background-color: #373737;
-}
-.xd a {
-    background-color: #373737;
+    text-align: center;
 }
 
 /*
@@ -132,15 +111,63 @@ nav a {
     background-color: #373737;
 }
 /*seccion 3*/
-.portafolio h1 {
+.proyecto h1 {
     color: #0772c5;
     font-family: 'Open Sans', sans-serif;
 }
 
-.portafolio h2 {
+.proyecto h2 {
     color: #fefefe;
     font-family: 'Open Sans', sans-serif;
 }
+
+.cartas-p img {
+    width: 60%;
+    height: 70vh;
+    border-radius: 4%;
+    margin-left: 2rem;
+}
+
+.infoCartas h2 {
+    background-color: #373737;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.infoCartas p {
+    background-color: #373737;
+    color: #fefefe;
+    font-family: Merge One ;
+    font-size: 1.5rem;
+}
+
+.infoCartas button {
+    background-color: #0772c5;
+    height: 7vh;
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid #0772c5;
+    border-radius: 10%;
+}
+
+.infoCartas button a {
+    background-color: #0772c5;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.enlacesCartas a {
+    background-color: #373737;
+    color: #fefefe;
+    font-family: Merge One ;
+    text-align: center;
+}
+
 /*seccion 4*/
 .contacto h1 {
     color: #0772c5;
