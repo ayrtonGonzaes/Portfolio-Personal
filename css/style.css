@@ -11,8 +11,9 @@ header {
     align-items: center; 
     justify-content: space-between;
     height: 18vh;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
+    position: fixed;
 }
 
 
@@ -118,13 +119,14 @@ footer {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
+    margin-left: 3rem;
 }
 
 nav a {
     color: #fff;
-    margin-left: 3rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
+    margin-right: 3rem;
 }
 /*seccion principal*/
 .tituloMain h1 {
