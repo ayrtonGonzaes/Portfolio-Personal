@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior:smooth;
+}
+
 body {
     background-color: #272727;
 }
@@ -71,3 +75,53 @@ nav a:hover {
     border-radius: 10%;
 }
 /*Fin ediccion header*/
+
+#hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.info-hero h1 {
+    padding-bottom: 12px;
+}
+
+.info-hero p {
+    color: #fefefe;
+    font-size: 1.25em;
+    font-family: Merge One;
+    padding-bottom: 12px;
+}
+
+.container-iconos img {
+    background-color: #fff;
+    height: 10vh;
+    margin: 0 2rem;
+}
+/*Fin de ediccion de la seccion 1*/
+
+#sobre {
+    background-color: #373737;
+}
+
+#sobre .infoSobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+}
+
+#sobre .infoSobre h2 {
+    padding-bottom: 40px;
+}
+
+#sobre .infoSobre p {
+    color: #fefefe;
+    font-size: 1.25em;
+    font-family: Merge One;
+    text-align: center;
+    padding-bottom: 12px;
+}
