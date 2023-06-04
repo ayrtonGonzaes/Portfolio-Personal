@@ -33,6 +33,10 @@ h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container-img img {
+    display:none;
+}
+
 button {
    background-color: #0772c5;
    padding: 10px;
@@ -122,9 +126,19 @@ nav a:hover {
     color: #fff;
 }
 
+.linkedin-uno:hover {
+    font-size: 3rem;
+    color: #0a66c2;
+}
+
 .github-uno {
     font-size: 3rem;
     color: #fff;
+}
+
+.github-uno:hover {
+    font-size: 3rem;
+    color: #000;
 }
 
 #sobre {
@@ -317,6 +331,16 @@ input.scx:hover{
     color: #fff;
 }
 
+.linkedin-dos:hover {
+    font-size: 2rem;
+    color: #0a66c2;
+}
+
+.github-dos:hover {
+    font-size: 2rem;
+    color: #272727;
+}
+
 .github-dos {
     font-size: 2rem;
     color: #fff;
@@ -326,8 +350,11 @@ input.scx:hover{
 
     header {
         position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
-        margin: 0 auto;
+        height: 80px;
+        z-index: 999;
         background-color: #272727;
     }
 
@@ -336,6 +363,32 @@ input.scx:hover{
         align-items: center;
         justify-content: space-between;
         padding: 15px 20px;
+    }
+
+    #hero .container{
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+        margin: 0 2.5rem;
+    }
+
+    .info-hero h1 {
+        padding-bottom: 25px;
+    }
+
+    .info-hero p {
+        padding-bottom: 25px;
+    }
+
+    .container-img img {
+        display: block;
+        height: 70vh;
+        border-radius: 2%;
+        filter: blur(4px);
+    }
+
+    .container-img img:hover {
+        filter: none;
     }
 
 }
