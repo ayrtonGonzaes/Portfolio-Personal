@@ -37,6 +37,10 @@ h3 {
     display:none;
 }
 
+.container-img-sobre img {
+    display: none;
+}
+
 button {
    background-color: #0772c5;
    padding: 10px;
@@ -144,6 +148,7 @@ nav a:hover {
 #sobre {
     background-color: #373737;
 }
+
 
 #sobre .infoSobre{
     display: flex;
@@ -389,6 +394,32 @@ input.scx:hover{
 
     .container-img img:hover {
         filter: none;
+    }
+
+    /*Fin de la ediccion seccion hero*/
+
+    #sobre .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        gap: 4rem;
+        margin: 0 2.5rem;
+    }
+
+    #sobre .infoSobre {
+        padding: 0;
+    }
+
+     #sobre .infoSobre p {
+        padding: 0;
+        text-align: start;
+    }
+
+    .container-img-sobre img {
+        display: block;
+        height: 40vh;
+        border-radius: 2%;
     }
 
 }
