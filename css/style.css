@@ -729,4 +729,9 @@ input.scx:hover{
         display: flex;
         gap: 2rem;
     }
+
+    #final .container {
+        width: 85%;
+        margin: 0 auto;
+    }
 }
