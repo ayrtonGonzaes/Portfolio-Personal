@@ -45,6 +45,14 @@ h3 {
     display: none;
 }
 
+.imagen-cartas {
+    display: none;
+}
+
+.enlaces-cartas {
+    display: none;
+}
+
 button {
    background-color: #0772c5;
    padding: 10px;
@@ -573,4 +581,121 @@ input.scx:hover{
         bottom: 3%;
     }
 
+    #proyectos .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #proyectos .titulos-proyectos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #proyectos .titulos-proyectos h2 {
+        padding-bottom: 20px;
+    }
+
+    #proyectos .titulos-proyectos p {
+        display: block;
+        font-size: 1.5em;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        text-align: start;
+    }
+
+    #proyectos .container-cartas {
+        justify-content:flex-start;
+        align-items: flex-start;
+        gap: 5rem;
+    }
+
+    #fondo-uno {
+        background-image: none;
+        background-color: #373737;
+        height: 70vh;
+        width: 101%;
+        margin: 0 auto;
+        border-radius: 1%;
+    }
+
+    .cartas {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center; 
+        gap: 2rem;
+    }
+
+    .imagen-cartas {
+        display: block;
+    }
+
+    .imagen-cartas img {
+        height: 60vh;
+        padding: 25px 30px;
+        border-radius: 5%;
+    }
+
+
+    .primera-p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .segunda-p {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .info-cartas button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 23%;
+        margin: 0 auto;
+        margin-bottom: 1.8rem;
+    }
+
+    .enlaces-cartas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin:0 auto;
+    }
+
+    .enlaces-cartas a {
+        color: #fefefe;
+        font-family: Merge One;
+        font-size: 1.1em;
+    }
+
+    .enlaces-cartas a:hover {
+        color: #0772c5;
+    }
+    
+    .github-cartas {
+        color: #fff;
+        font-size: 1.3em;
+    }
+
+    .enlaces-cartas {
+        display: block;
+    }
+
+    #fondo-dos {
+        background-image: none;
+        background-color: #373737;
+        height: 70vh;
+        width: 101%;
+        margin: 0 auto;
+        border-radius: 1%;
+    }
+
+    #fondo-dos .lark img {
+        height: 60vh;
+    }
 }
