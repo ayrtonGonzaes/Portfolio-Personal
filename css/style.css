@@ -182,6 +182,10 @@ nav a:hover {
     padding: 80px 12px;
 }
 
+#proyectos .titulos-proyectos p {
+    display: none;
+} 
+
 #proyectos .container-cartas {
     display: flex;
     flex-direction: column;
@@ -484,7 +488,7 @@ input.scx:hover{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
         padding-top: 150px;
     }
@@ -495,27 +499,78 @@ input.scx:hover{
         align-items: flex-start;
     }
 
+    .info-hero h1 {
+        font-size: 3em;
+        padding-bottom: 25px;
+    }
+
+    .info-hero p {
+        text-align: left;
+        padding-bottom: 25px
+    }
+
     .container-iconos i {
         padding: 15px 0;
         padding-right: 20px;
     }
 
     .container-img {
-        border: 5px solid #0772c5;
-        height: 60vh;
+        border: 2px solid #0772c5;
+        height: 80vh;
     }
 
     .container-img img {
         display: block;
-        height: 60vh;
+        height: 80vh;
         border-radius: 2%;
         filter: blur(4px);
-        position:relative;
+        position: relative;
         right: 4%;
-        bottom: 5%;
+        bottom: 4%;
     }
 
     .container-img img:hover {
         filter: none;
     }
+    /*FIN DE LA EDICCION HEADER Y HERO*/
+
+    #sobre .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: 0 auto;
+        gap: 7rem;
+        height: 80vh;
+    }
+
+    #sobre .infoSobre {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #sobre .infoSobre h2 {
+    text-align: start;
+    }
+
+    #sobre .infoSobre p {
+        text-align: start;
+        padding-right: 20px;
+    }
+
+    .container-img-sobre {
+        border: 2px solid #0772c5;
+        height: 40vh;
+    }
+
+    .container-img-sobre img {
+        display: block;
+        height: 40vh;
+        border-radius: 2%;
+        position: relative;
+        left: 4%;
+        bottom: 3%;
+    }
+
 }
