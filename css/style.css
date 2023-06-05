@@ -178,6 +178,13 @@ nav a:hover {
     padding: 80px 12px;
 }
 
+#proyectos .container-cartas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 .cartas {
     display: flex;
