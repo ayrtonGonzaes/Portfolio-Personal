@@ -698,4 +698,35 @@ input.scx:hover{
     #fondo-dos .lark img {
         height: 60vh;
     }
+
+    #contacto .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .titulo-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    #contacto .container {
+        gap: 0;
+    }
+
+    #contacto .container-contacto {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: start;
+        gap: 5rem;
+    }
+
+    .enlaces-contacto {
+        display: flex;
+        gap: 2rem;
+    }
 }
