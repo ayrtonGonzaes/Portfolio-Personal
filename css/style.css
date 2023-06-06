@@ -456,9 +456,26 @@ input.scx:hover{
         gap: 2rem;
     }
 
+    .primera-p {
+        text-align: center;
+    }
+
     .segunda-p {
         display: block;
+        font-size: 1em;
         text-align: center;
+    }
+
+    .info-cartas button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24%;
+        margin: 0 auto
+    }
+
+    #contacto .container-contacto {
+        gap: 2rem;
     }
 
     #final .container {
